@@ -7,7 +7,7 @@
 
 // Função para puxar todas as váriaveis citadas acima (boa prática de programação)
 let listaDeNumerosSorteados = [];
-let numeroLimite = 10;
+let numeroLimite = 50;
 let numeroSecreto = gerarNumeroAleatorio();
 let tentativas = 1;
 
@@ -19,7 +19,7 @@ function exibicaoDeTexto(tag, texto) {
 
 function exibirMensagemInicial () {
     exibicaoDeTexto('h1', 'Jogo do número secreto'); // Selecione a tag e depois o conteúdo que será escrito
-    exibicaoDeTexto('p', 'Escolha um número de 1 a 10');
+    exibicaoDeTexto('p', 'Escolha um número de 1 a 50');
 }
 
 exibirMensagemInicial();
